@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/SEU-USUARIO">LinkedIn</a> ·
-  <a href="mailto:SEU-EMAIL">E-mail</a> ·
+  <a href="https://www.linkedin.com/in/heldem-filipe">LinkedIn</a> ·
+  <a href="mailto:heldemfilipe@gmail.com">E-mail</a> ·
   Rio Claro, SP · Aberto a oportunidades
 </p>
 
