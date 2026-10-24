@@ -34,8 +34,8 @@
 | Projeto | O que prova | Stack |
 |---|---|---|
 | [radar-tech](https://github.com/heldemfilipe/radar-tech) | Pipeline 100% automatizado (RSS → Gemini → TTS → Telegram) com custo zero | Python, GitHub Actions |
-| **[NOME-DO-REPO-IAC]** | Infra AWS completa com Terraform, deploy via OIDC e scan de segurança | Terraform, ECS Fargate, GitHub Actions |
-| **[NOME-DO-REPO-JAVA]** | API REST com testes, migrations, Docker e CI | Java, Spring Boot, PostgreSQL |
+| [terraform-aws-fundation](https://github.com/heldemfilipe/terraform-aws-foundation) | Infra AWS completa com Terraform, deploy via OIDC e scan de segurança | Terraform, ECS Fargate, GitHub Actions |
+| [orders-api](https://github.com/heldemfilipe/orders-api) | API REST com testes, migrations, Docker e CI | Java, Spring Boot, PostgreSQL |
 
 <!-- Troque os itens em negrito pelos links reais quando os repos existirem. Não publique linha de projeto que ainda não existe. -->
 
