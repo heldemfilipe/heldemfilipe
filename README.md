@@ -28,8 +28,9 @@
 | Área | O que uso |
 |---|---|
 | Cloud | AWS (ECS Fargate, EKS, IAM) |
-| IaC | Terraform |
-| CI/CD | GitLab CI, GitHub Actions |
+| IaC | Terraform (módulos, testes com `terraform test`, versionamento por tag) |
+| CI/CD | GitLab CI, GitHub Actions (OIDC, plan/apply com aprovação) |
+| Segurança e qualidade | Trivy, tflint, gitleaks, OPA/conftest (policy as code) |
 | Containers | Docker, Kubernetes |
 | Observabilidade | Métricas, logs e alertas |
 | Linguagens | Python, Java (Spring Boot) |
@@ -40,10 +41,11 @@
 
 | Projeto | O que prova | Stack |
 |---|---|---|
+| [terraform-aws-foundation](https://github.com/heldemfilipe/terraform-aws-foundation) | Fundação de IaC: módulos testados e versionados por tag, pipeline plan/apply por OIDC com aprovação manual, políticas que bloqueiam o PR e detecção diária de drift, com runbook | Terraform, GitHub Actions, OPA |
 | [radar-tech](https://github.com/heldemfilipe/radar-tech) | Pipeline 100% automatizado (RSS → Gemini → TTS → Telegram) com custo zero | Python, GitHub Actions |
 | [orders-api](https://github.com/heldemfilipe/orders-api) | API REST com testes, migrations, Docker e CI | Java, Spring Boot, PostgreSQL |
 
-**Em andamento:** módulos Terraform para AWS com pipeline plan/apply via OIDC, policy as code e detecção de drift.
+> `terraform-aws-foundation` é um projeto de estudo: validado com testes, `plan` offline e políticas, **nunca aplicado na AWS**. O README do repositório mostra o que foi executado e o que não foi.
 
 ---
 
