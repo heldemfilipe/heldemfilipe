@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 536" width="1200" height="536" role="img" aria-label="Sobre Heldem: DevOps em Rio Claro, SP; IaC, GitOps, CI/CD e observabilidade; APIs em Java e automações em Python.">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="536" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="536" fill="#282a36"/>
+    <rect width="1200" height="536" fill="url(#dots)"/>
+    <rect width="1200" height="46" fill="#21222c"/>
+    <circle cx="34" cy="23.0" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="23.0" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="23.0" r="7" fill="#50fa7b"/>
+    <text x="600.0" y="28.0" text-anchor="middle" font-size="15" fill="#6272a4">heldemfilipe@cloud: ~/about</text>
+
+    <text x="48" y="88" font-size="22"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">cat ~/about.yaml</tspan></text>
+    <text x="48" y="130" font-size="16"><tspan fill="#ff79c6">nome</tspan><tspan fill="#f8f8f2">:</tspan><tspan fill="#f1fa8c" dx="10">Heldem Filipe</tspan></text>
+    <text x="48" y="156" font-size="16"><tspan fill="#ff79c6">local</tspan><tspan fill="#f8f8f2">:</tspan><tspan fill="#f1fa8c" dx="10">Rio Claro, SP · remoto ou híbrido</tspan></text>
+    <text x="48" y="182" font-size="16"><tspan fill="#ff79c6">status</tspan><tspan fill="#f8f8f2">:</tspan><tspan fill="#f1fa8c" dx="10">aberto a oportunidades</tspan></text>
+    <text x="48" y="220" font-size="16"><tspan fill="#ff79c6">no_dia_a_dia</tspan><tspan fill="#f8f8f2">:</tspan></text>
+    <text x="72" y="246" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Infraestrutura como código (Terraform) e GitOps (Argo CD)</tspan></text>
+    <text x="72" y="272" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Pipelines de CI/CD com segurança e policy as code</tspan></text>
+    <text x="72" y="298" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Observabilidade: Prometheus, Alertmanager, Grafana</tspan></text>
+    <text x="48" y="336" font-size="16"><tspan fill="#ff79c6">fora_do_expediente</tspan><tspan fill="#f8f8f2">:</tspan></text>
+    <text x="72" y="362" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">APIs em Java e Spring Boot (Kafka, MongoDB, PostgreSQL)</tspan></text>
+    <text x="72" y="388" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Automações em Python rodando de graça no GitHub Actions</tspan></text>
+    <text x="72" y="414" font-size="16"><tspan fill="#6272a4">-</tspan><tspan fill="#f1fa8c" dx="10">Apps pessoais em Next.js + Supabase</tspan></text>
+    <line x1="48" y1="454" x2="1152" y2="454" stroke="#44475a" stroke-width="1" stroke-dasharray="3 5" opacity="0.6"/>
+    <text x="48" y="484" font-size="14" fill="#6272a4"># 5 anos de DevOps, do estágio à responsabilidade pela área</text>
+    <text x="48" y="506" font-size="14" fill="#6272a4"># meus projetos de estudo dizem na tampa o que foi aplicado de verdade e o que não foi</text>
+
+    <rect x="0.75" y="0.75" width="1198.5" height="534.5" rx="18" fill="none" stroke="#44475a" stroke-width="1.5"/>
+  </g>
+</svg>

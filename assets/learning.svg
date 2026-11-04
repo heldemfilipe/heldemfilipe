@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 238" width="1200" height="238" role="img" aria-label="Estudando agora: certificações AWS, Kafka e MongoDB em Java, inglês técnico">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="238" rx="18"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="238" fill="#282a36"/>
+    <rect width="1200" height="238" fill="url(#dots)"/>
+    <rect width="1200" height="46" fill="#21222c"/>
+    <circle cx="34" cy="23.0" r="7" fill="#ff5555"/>
+    <circle cx="58" cy="23.0" r="7" fill="#f1fa8c"/>
+    <circle cx="82" cy="23.0" r="7" fill="#50fa7b"/>
+    <text x="600.0" y="28.0" text-anchor="middle" font-size="15" fill="#6272a4">heldemfilipe@cloud: ~/estudando</text>
+
+    <text x="48" y="88" font-size="22"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">cat ~/estudando.md</tspan></text>
+    <text x="48" y="140" font-size="16"><tspan fill="#ffb86c">▸</tspan><tspan fill="#f8f8f2" dx="12">Certificações AWS</tspan></text>
+    <text x="48" y="172" font-size="16"><tspan fill="#ffb86c">▸</tspan><tspan fill="#f8f8f2" dx="12">Mensageria e NoSQL em Java (Kafka, MongoDB)</tspan></text>
+    <text x="48" y="204" font-size="16"><tspan fill="#ffb86c">▸</tspan><tspan fill="#f8f8f2" dx="12">Inglês técnico</tspan></text>
+
+    <rect x="0.75" y="0.75" width="1198.5" height="236.5" rx="18" fill="none" stroke="#44475a" stroke-width="1.5"/>
+  </g>
+</svg>

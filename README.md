@@ -1,67 +1,70 @@
-<h1 align="center">Heldem Filipe</h1>
-<p align="center">
-  DevOps / Cloud / Platform Engineer · 5 anos de experiência<br>
-  Infraestrutura como código, GitOps, pipelines e observabilidade na AWS · Java e Spring Boot como segunda frente
-</p>
+<img alt="Heldem Filipe — DevOps, Cloud e Platform Engineer" src="assets/header.svg" width="100%"/>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/heldem-filipe">LinkedIn</a> ·
-  <a href="mailto:heldemfilipe@gmail.com">E-mail</a> ·
-  Rio Claro, SP · Aberto a oportunidades (remoto ou híbrido)
-</p>
+<div align="center">
 
----
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white&labelColor=282a36)](https://www.linkedin.com/in/heldem-filipe)
+[![E-mail](https://img.shields.io/badge/heldemfilipe@gmail.com-ff79c6?style=flat-square&logo=gmail&logoColor=white&labelColor=282a36)](mailto:heldemfilipe@gmail.com)
+![Local](https://img.shields.io/badge/Rio_Claro,_SP-bd93f9?style=flat-square&logo=googlemaps&logoColor=white&labelColor=282a36)
+![Status](https://img.shields.io/badge/aberto_a_oportunidades-50fa7b?style=flat-square&labelColor=282a36)
 
-## Certificações
+</div>
 
-- **AWS Certified Solutions Architect – Associate** (SAA-C03), ago/2026
-- **AWS Certified Developer – Associate** (DVA-C02), out/2026
-- **AWS Certified Cloud Practitioner** (CLF-C02), nov/2026
+<img alt="" src="assets/divider.svg" width="100%"/>
 
----
+<img alt="Sobre mim: DevOps em Rio Claro, SP; IaC, GitOps, CI/CD e observabilidade; APIs em Java e automações em Python" src="assets/about.svg" width="100%"/>
 
-## Stack
+<img alt="" src="assets/divider.svg" width="100%"/>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=aws,terraform,kubernetes,docker,prometheus,grafana,gitlab&perline=7" alt="Stack" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=githubactions,python,java,spring,mongodb,kafka&perline=6" alt="Stack" /><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/argocd/argocd-original.svg" alt="Argo CD" width="48" height="48" />
-</p>
+<img alt="Certificações AWS" src="assets/certs.svg" width="100%"/>
 
-| Área | O que uso |
-|---|---|
-| Cloud | AWS (ECS Fargate, EKS, IAM) |
-| IaC | Terraform (módulos, testes com `terraform test`, versionamento por tag) |
-| CI/CD e GitOps | GitLab CI, GitHub Actions (OIDC, plan/apply com aprovação), Argo CD |
-| Segurança e qualidade | Trivy, tflint, gitleaks, OPA/conftest e Kyverno (policy as code) |
-| Containers | Docker, Kubernetes (kind, EKS), NetworkPolicy, PDB e HPA |
-| Observabilidade | Prometheus, Alertmanager e Grafana (kube-prometheus-stack) |
-| Linguagens | Python, Java (Spring Boot) |
+<img alt="" src="assets/divider.svg" width="100%"/>
 
----
+<img alt="projetos" src="assets/labels/projetos.svg" width="100%"/>
 
-## Projetos em destaque
+<a href="https://github.com/heldemfilipe/eks-gitops-platform"><img alt="eks-gitops-platform (HCL)" src="assets/projects/eks-gitops-platform.svg" width="100%"/></a>
 
-| Projeto | O que prova | Stack |
-|---|---|---|
-| [eks-gitops-platform](https://github.com/heldemfilipe/eks-gitops-platform) + [eks-gitops-config](https://github.com/heldemfilipe/eks-gitops-config) | Plataforma Kubernetes em camadas (rede, EKS, bootstrap) operada por GitOps: entrega por PR com o Argo CD sincronizando em ~82 s, observabilidade com alertas, guardrails (Kyverno, NetworkPolicy, PDB, HPA) e cinco experimentos de falha medidos, mais custo estimado e runbook de upgrade | Terraform, Argo CD, Kubernetes, Kyverno, Prometheus |
-| [terraform-aws-foundation](https://github.com/heldemfilipe/terraform-aws-foundation) | Fundação de IaC: módulos testados e versionados por tag, pipeline plan/apply por OIDC com aprovação manual, políticas que bloqueiam o PR e detecção de drift sob demanda, com runbook | Terraform, GitHub Actions, OPA |
-| [orders-api](https://github.com/heldemfilipe/orders-api) | API REST com Kafka e MongoDB, circuit breaker, testes de integração com Testcontainers, Docker, CI e infraestrutura em Terraform | Java, Spring Boot, Kafka, MongoDB |
-| [radar-tech](https://github.com/heldemfilipe/radar-tech) | Pipeline 100% automatizado (RSS → Gemini → TTS → Telegram) com custo zero | Python, GitHub Actions |
+<a href="https://github.com/heldemfilipe/eks-gitops-config"><img alt="eks-gitops-config (YAML)" src="assets/projects/eks-gitops-config.svg" width="100%"/></a>
+
+<a href="https://github.com/heldemfilipe/terraform-aws-foundation"><img alt="terraform-aws-foundation (HCL)" src="assets/projects/terraform-aws-foundation.svg" width="100%"/></a>
+
+<a href="https://github.com/heldemfilipe/orders-api"><img alt="orders-api (Java)" src="assets/projects/orders-api.svg" width="100%"/></a>
+
+<a href="https://github.com/heldemfilipe/room-booking-api"><img alt="room-booking-api (Java)" src="assets/projects/room-booking-api.svg" width="100%"/></a>
+
+<a href="https://github.com/heldemfilipe/tasks-api"><img alt="tasks-api (Java)" src="assets/projects/tasks-api.svg" width="100%"/></a>
+
+<a href="https://github.com/heldemfilipe/radar-tech"><img alt="radar-tech (Python)" src="assets/projects/radar-tech.svg" width="100%"/></a>
+
+<a href="https://github.com/heldemfilipe/radar-panorama"><img alt="radar-panorama (Python)" src="assets/projects/radar-panorama.svg" width="100%"/></a>
 
 > `terraform-aws-foundation` e `eks-gitops-platform` são projetos de estudo: validados com testes, `plan` offline e políticas, **nunca aplicados na AWS**. No segundo, o cluster que rodou de verdade é um `kind` local. Os READMEs mostram o que foi executado e o que não foi.
 
----
+<img alt="" src="assets/divider.svg" width="100%"/>
 
-## Experiência
+<img alt="apps" src="assets/labels/apps.svg" width="100%"/>
 
-- **GFT Technologies** (ago/2025 – out/2026): Analista DevOps Pleno, infraestrutura cloud para o setor financeiro
-- **Casa do Construtor** (jun/2021 – jul/2025): de estagiário a Analista DevOps Pleno, responsável pela área de DevOps
+<a href="https://github.com/heldemfilipe/controle-financeiro"><img alt="controle-financeiro (TypeScript)" src="assets/projects/controle-financeiro.svg" width="100%"/></a>
 
----
+<a href="https://github.com/heldemfilipe/compras_mercado"><img alt="compras_mercado (TypeScript)" src="assets/projects/compras_mercado.svg" width="100%"/></a>
 
-## Estudando agora
+<a href="https://github.com/heldemfilipe/EBD-chamada"><img alt="EBD-chamada (TypeScript)" src="assets/projects/ebd-chamada.svg" width="100%"/></a>
 
-- AWS Certifications
-- Mensageria e NoSQL em Java (Kafka, MongoDB)
-- Inglês técnico
+<a href="https://github.com/heldemfilipe/membros-igreja"><img alt="membros-igreja (TypeScript)" src="assets/projects/membros-igreja.svg" width="100%"/></a>
+
+<a href="https://github.com/heldemfilipe/Supabase-Keep-Alive"><img alt="Supabase-Keep-Alive (GitHub Actions)" src="assets/projects/supabase-keep-alive.svg" width="100%"/></a>
+
+<img alt="" src="assets/divider.svg" width="100%"/>
+
+<img alt="Stack: AWS, Terraform, GitHub Actions, GitLab CI, Argo CD, Trivy, Kyverno, Docker, Kubernetes, Prometheus, Grafana, Python, Java, Spring Boot, Kafka, MongoDB" src="assets/stack.svg" width="100%"/>
+
+<img alt="" src="assets/divider.svg" width="100%"/>
+
+<img alt="Experiência: GFT Technologies e Casa do Construtor" src="assets/experience.svg" width="100%"/>
+
+<img alt="" src="assets/divider.svg" width="100%"/>
+
+<img alt="Estudando agora: certificações AWS, Kafka e MongoDB em Java, inglês técnico" src="assets/learning.svg" width="100%"/>
+
+<img alt="" src="assets/divider.svg" width="100%"/>
+
+<img alt="Connection to heldemfilipe closed — sempre aprendendo, sempre entregando" src="assets/footer.svg" width="100%"/>

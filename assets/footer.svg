@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 90" width="1200" height="90" role="img" aria-label="Connection to heldemfilipe closed. Sempre aprendendo, sempre entregando.">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#bd93f9"/>
+      <stop offset="50%" stop-color="#ff79c6"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.2" fill="#44475a" opacity="0.5"/>
+    </pattern>
+    <clipPath id="card"><rect width="1200" height="90" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)" font-family="ui-monospace,SFMono-Regular,SF Mono,Menlo,Consolas,DejaVu Sans Mono,monospace">
+    <rect width="1200" height="90" fill="#282a36"/>
+    <rect width="1200" height="90" fill="url(#dots)"/>
+    <text x="48" y="40" font-size="16"><tspan fill="#50fa7b">$</tspan><tspan fill="#f8f8f2" dx="12">exit</tspan></text>
+    <text x="48" y="66" font-size="15" fill="#6272a4">Connection to heldemfilipe closed. # sempre aprendendo, sempre entregando</text>
+    <rect x="0.75" y="0.75" width="1198.5" height="88.5" rx="14" fill="none" stroke="#44475a" stroke-width="1.5"/>
+  </g>
+</svg>
