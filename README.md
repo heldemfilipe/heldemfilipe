@@ -11,7 +11,7 @@
 
 <img alt="" src="assets/divider.svg?v=ee4607b4" width="100%"/>
 
-<img alt="Sobre mim: DevOps em Rio Claro, SP, com certificações AWS; IaC, GitOps, CI/CD e observabilidade; APIs em Java, auditoria AWS e automações em Python" src="assets/about.svg?v=fc509762" width="100%"/>
+<img alt="Sobre mim: DevOps em Rio Claro, SP; IaC, GitOps, CI/CD e observabilidade; APIs em Java, auditoria AWS e automações em Python" src="assets/about.svg?v=b8772328" width="100%"/>
 
 <img alt="" src="assets/divider.svg?v=ee4607b4" width="100%"/>
 
