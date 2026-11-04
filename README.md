@@ -16,6 +16,7 @@
 
 - **AWS Certified Solutions Architect – Associate** (SAA-C03), ago/2026
 - **AWS Certified Developer – Associate** (DVA-C02), out/2026
+- **AWS Certified Cloud Practitioner** (CLF-C02), nov/2026
 
 ---
 
