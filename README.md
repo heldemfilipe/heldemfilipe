@@ -27,6 +27,8 @@
 
 <a href="https://github.com/heldemfilipe/terraform-aws-foundation"><img alt="terraform-aws-foundation (HCL)" src="assets/projects/terraform-aws-foundation.svg" width="100%"/></a>
 
+<a href="https://github.com/heldemfilipe/aws-auditor"><img alt="aws-auditor (Java)" src="assets/projects/aws-auditor.svg" width="100%"/></a>
+
 <a href="https://github.com/heldemfilipe/orders-api"><img alt="orders-api (Java)" src="assets/projects/orders-api.svg" width="100%"/></a>
 
 <a href="https://github.com/heldemfilipe/room-booking-api"><img alt="room-booking-api (Java)" src="assets/projects/room-booking-api.svg" width="100%"/></a>
