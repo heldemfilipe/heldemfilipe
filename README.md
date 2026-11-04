@@ -65,7 +65,7 @@
 
 <img alt="" src="assets/divider.svg" width="100%"/>
 
-<img alt="Estudando agora: certificações AWS, Kafka e MongoDB em Java, inglês técnico" src="assets/learning.svg" width="100%"/>
+<img alt="Estudando agora: AWS SDK for Java v2, DynamoDB, paralelismo e métricas em Java, inglês técnico" src="assets/learning.svg" width="100%"/>
 
 <img alt="" src="assets/divider.svg" width="100%"/>
 
