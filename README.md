@@ -11,7 +11,7 @@
 
 <img alt="" src="assets/divider.svg?v=ee4607b4" width="100%"/>
 
-<img alt="Sobre mim: DevOps em Rio Claro, SP; IaC, GitOps, CI/CD e observabilidade; APIs em Java, auditoria AWS e automações em Python" src="assets/about.svg?v=b8772328" width="100%"/>
+<img alt="Sobre mim: DevOps em Rio Claro, SP; IaC, GitOps, CI/CD e observabilidade; APIs em Java, auditoria AWS e automações em Python" src="assets/about.svg?v=ed52a279" width="100%"/>
 
 <img alt="" src="assets/divider.svg?v=ee4607b4" width="100%"/>
 
@@ -27,7 +27,7 @@
 
 <a href="https://github.com/heldemfilipe/terraform-aws-foundation"><img alt="terraform-aws-foundation (HCL)" src="assets/projects/terraform-aws-foundation.svg?v=18141c7c" width="100%"/></a>
 
-<a href="https://github.com/heldemfilipe/aws-auditor"><img alt="aws-auditor (Java)" src="assets/projects/aws-auditor.svg?v=52b22ff4" width="100%"/></a>
+<a href="https://github.com/heldemfilipe/aws-auditor"><img alt="aws-auditor (Java)" src="assets/projects/aws-auditor.svg?v=494721ff" width="100%"/></a>
 
 <a href="https://github.com/heldemfilipe/orders-api"><img alt="orders-api (Java)" src="assets/projects/orders-api.svg?v=1661aa0a" width="100%"/></a>
 
@@ -39,7 +39,7 @@
 
 <a href="https://github.com/heldemfilipe/radar-panorama"><img alt="radar-panorama (Python)" src="assets/projects/radar-panorama.svg?v=7ecc929b" width="100%"/></a>
 
-> `terraform-aws-foundation` e `eks-gitops-platform` são projetos de estudo: validados com testes, `plan` offline e políticas, **nunca aplicados na AWS**. No segundo, o cluster que rodou de verdade é um `kind` local. Os READMEs mostram o que foi executado e o que não foi.
+> `terraform-aws-foundation`, `eks-gitops-platform` e `aws-auditor` são projetos de estudo: validados offline (testes, `plan` ou `validate` e políticas), **nunca aplicados na AWS**. No `eks-gitops-platform`, o cluster que rodou de verdade é um `kind` local; no `aws-auditor`, a varredura só rodou com respostas sintéticas e o DynamoDB Local. Os READMEs mostram o que foi executado e o que não foi.
 
 <img alt="" src="assets/divider.svg?v=ee4607b4" width="100%"/>
 
@@ -57,7 +57,7 @@
 
 <img alt="" src="assets/divider.svg?v=ee4607b4" width="100%"/>
 
-<img alt="Stack: AWS, Terraform, GitHub Actions, GitLab CI, Argo CD, Trivy, Kyverno, Docker, Kubernetes, Prometheus, Grafana, Python, Java, Spring Boot, Kafka, MongoDB" src="assets/stack.svg?v=4144f0de" width="100%"/>
+<img alt="Stack: AWS, Terraform, GitHub Actions, GitLab CI, Argo CD, Trivy, Kyverno, Docker, Kubernetes, Prometheus, Grafana, Python, Java, Spring Boot, Kafka, MongoDB, DynamoDB" src="assets/stack.svg?v=a17f1549" width="100%"/>
 
 <img alt="" src="assets/divider.svg?v=ee4607b4" width="100%"/>
 

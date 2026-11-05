@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 112" width="1200" height="112" role="img" aria-label="aws-auditor (Java): Em início: auditor de conta AWS (EBS solto, S3 público, chave IAM parada, SG aberto). Motor de regras testado; SDK ainda não integrado.">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 112" width="1200" height="112" role="img" aria-label="aws-auditor (Java): Auditor de conta AWS: varredura multi-região em paralelo, DynamoDB, API com aviso no Telegram, imagem e Terraform. Nunca rodou em conta real.">
   <defs>
     <linearGradient id="edge" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#bd93f9"/>
@@ -16,9 +16,9 @@
     <text x="48" y="52" font-size="18" font-weight="700" fill="#bd93f9">aws-auditor</text>
     <circle cx="54" cy="74" r="5" fill="#ffb86c"/>
     <text x="68" y="79" font-size="13" fill="#6272a4">Java</text>
-    <text x="330" y="40" font-size="15" fill="#f8f8f2">Em início: auditor de conta AWS (EBS solto, S3 público, chave IAM</text>
-    <text x="330" y="62" font-size="15" fill="#f8f8f2">parada, SG aberto). Motor de regras testado; SDK ainda não integrado.</text>
-    <text x="330" y="96" font-size="13" fill="#8be9fd">Java 25 · Spring Boot · AWS SDK v2 · (a fazer) DynamoDB</text>
+    <text x="330" y="40" font-size="15" fill="#f8f8f2">Auditor de conta AWS: varredura multi-região em paralelo, DynamoDB, API</text>
+    <text x="330" y="62" font-size="15" fill="#f8f8f2">com aviso no Telegram, imagem e Terraform. Nunca rodou em conta real.</text>
+    <text x="330" y="96" font-size="13" fill="#8be9fd">Java 25 · Spring Boot · AWS SDK v2 · DynamoDB · Docker · Terraform · Trivy</text>
     <rect x="0.75" y="0.75" width="1198.5" height="110.5" rx="12" fill="none" stroke="#44475a" stroke-width="1.5"/>
   </g>
 </svg>

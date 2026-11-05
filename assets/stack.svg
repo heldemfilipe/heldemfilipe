@@ -85,12 +85,14 @@
     <text x="378.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">Kafka</text>
     <rect x="425" y="594" width="86" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
     <text x="468.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">MongoDB</text>
-    <rect x="523" y="594" width="112" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
-    <text x="579.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">PostgreSQL</text>
-    <rect x="647" y="594" width="86" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
-    <text x="690.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">Next.js</text>
-    <rect x="745" y="594" width="112" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
-    <text x="801.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">TypeScript</text>
+    <rect x="523" y="594" width="95" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+    <text x="570.5" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">DynamoDB</text>
+    <rect x="630" y="594" width="112" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+    <text x="686.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">PostgreSQL</text>
+    <rect x="754" y="594" width="86" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+    <text x="797.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">Next.js</text>
+    <rect x="852" y="594" width="112" height="30" rx="15" fill="#21222c" stroke="#44475a" stroke-width="1.5"/>
+    <text x="908.0" y="614" text-anchor="middle" font-size="14" fill="#f8f8f2">TypeScript</text>
 
     <rect x="0.75" y="0.75" width="1198.5" height="656.5" rx="18" fill="none" stroke="#44475a" stroke-width="1.5"/>
   </g>
